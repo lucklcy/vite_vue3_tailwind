@@ -4,9 +4,7 @@
     class="external-icon"
     viewBox="0 0 90 20"
     focusable="false"
-    style="pointer-events: none; display: block"
-    :width="width"
-    :height="height"
+    style="pointer-events: none; display: block; width: 100%; height: 100%"
   >
     <svg viewBox="0 0 90 20" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
       <g>
@@ -45,14 +43,8 @@
   </svg>
 </template>
 
-<script setup lang="ts">
-export interface Props {
-  width: number | string
-  height: number | string
+<script lang="ts">
+export default {
+  name: 'c-youtube-icon'
 }
-
-withDefaults(defineProps<Props>(), {
-  width: '100%',
-  height: '100%'
-})
 </script>

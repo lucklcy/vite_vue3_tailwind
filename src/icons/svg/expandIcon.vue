@@ -6,8 +6,8 @@
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
     p-id="7299"
-    :width="width"
-    :height="height"
+    width="100%"
+    height="100%"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <path
@@ -17,14 +17,9 @@
     ></path>
   </svg>
 </template>
-<script setup lang="ts">
-export interface Props {
-  width: number | string
-  height: number | string
-}
 
-withDefaults(defineProps<Props>(), {
-  width: 48,
-  height: 48
-})
+<script lang="ts">
+export default {
+  name: 'c-expand-icon'
+}
 </script>
