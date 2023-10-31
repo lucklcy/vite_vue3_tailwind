@@ -1,19 +1,21 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    enable-background="new 0 0 24 24"
+    class="dark:fill-white fill-black"
+    height="24"
     viewBox="0 0 24 24"
+    width="24"
     focusable="false"
     style="pointer-events: none; display: block; width: 100%; height: 100%"
   >
     <path
-      d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
+      d="m22.01 4.91-.5-2.96L1.64 5.19 2 8v13h20V8H3.06l18.95-3.09zM5 9l1 3h3L8 9h2l1 3h3l-1-3h2l1 3h3l-1-3h3v11H3V9h2z"
     ></path>
   </svg>
 </template>
 
 <script lang="ts">
 export default {
-  name: 'c-search-icon'
+  name: 'icon-movie'
 }
 </script>

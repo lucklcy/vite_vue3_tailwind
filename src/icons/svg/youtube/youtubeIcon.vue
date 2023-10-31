@@ -45,6 +45,6 @@
 
 <script lang="ts">
 export default {
-  name: 'c-youtube-icon'
+  name: 'icon-youtube'
 }
 </script>

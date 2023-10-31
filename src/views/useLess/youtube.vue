@@ -33,11 +33,11 @@ export default {
 </script>
 
 <script setup lang="ts">
-import ExpandIcon from '../icons/svg/expandIcon.vue'
-import YoutubeIcon from '../icons/svg/youtubeIcon.vue'
-import SearchIcon from '../icons/svg/searchIcon.vue'
-import VedioIcon from '../icons/svg/vedioIcon.vue'
-import BearIcon from '../icons/svg/bearIcon.vue'
+import ExpandIcon from '@/icons/svg/youtube/expandIcon.vue'
+import YoutubeIcon from '@/icons/svg/youtube/youtubeIcon.vue'
+import SearchIcon from '@/icons/svg/youtube/searchIcon.vue'
+import VedioIcon from '@/icons/svg/youtube/vedioIcon.vue'
+import BearIcon from '@/icons/svg/youtube/bearIcon.vue'
 </script>
 
 <style lang="less" scoped>

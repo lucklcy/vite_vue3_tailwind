@@ -1,17 +1,22 @@
 export default [
+  // {
+  //   path: '/',
+  //   name: 'r_home',
+  //   component: () => import('@/views/home.vue')
+  // },
   {
     path: '/',
     name: 'r_home',
-    component: () => import('@/views/home.vue')
+    redirect: { path: '/youtube' }
   },
   {
-    path: '/youtube/tailwind',
+    path: '/youtube',
     name: 'r_youtube_tailwind',
-    component: () => import('@/views/youtubeTailwind.vue')
+    component: () => import('@/views/youtube.vue')
   },
   {
-    path: '/youtube/less',
+    path: '/less/youtube',
     name: 'r_youtube_less',
-    component: () => import('@/views/youtubeLess.vue')
+    component: () => import('@/views/useLess/youtube.vue')
   }
 ]

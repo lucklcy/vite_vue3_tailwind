@@ -20,6 +20,6 @@
 
 <script lang="ts">
 export default {
-  name: 'c-expand-icon'
+  name: 'icon-expand'
 }
 </script>
